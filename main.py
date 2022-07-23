@@ -34,7 +34,7 @@ def run(audio):
     try:
         os.system("clear")
         
-        frase = str(microfone.recognize_google(audio, language='en'))
+        frase = str(microfone.recognize_google(audio, language='en',))
         frase = frase.lower()
 
         if "preflight" in frase:

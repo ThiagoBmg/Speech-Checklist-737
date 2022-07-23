@@ -92,16 +92,16 @@ SHUTDOWN = [
     {"item": "Parking Brake", "value": None},
     {"item": "Engine Start Levers", "value": "Cutoff"},
     {"item": "Weather Radar", "value": "Off"},
-    {"item": "Securing Aircraft is completed", "value": None},
+    {"item": "Shutdown is completed", "value": None},
 ]
 
 SECURING_AIRCRAFT = [
-    {"item": "Shutdown Checklist", "value": None},
+    {"item": "Securing Aircraft Checklist", "value": None},
     {"item": "IRS's", "value": "Off"},
     {"item": "Emergent Exit Lights", "value": "Off"},
     {"item": "Window Heat", "value": "Off"},
     {"item": "Packs", "value": "Off"},
-    {"item": "Securing Aircraft is completed", "value": None},
+    {"item": "Securing Aircraft Checklist is completed", "value": None},
 ]
 
 FALLBACK_MESSAGE = [
